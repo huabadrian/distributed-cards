@@ -2,10 +2,18 @@ html {
   box-sizing: border-box;
   font-family: Georgia, serif;
   line-height: 1.5;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: -4rem;
+  background-color: #f5f2f0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+li a {
+  margin-top: -.5rem;
 }
 
 body {
@@ -22,16 +30,53 @@ h1 {
 }
 
 h2 {
+  margin-top: -.3rem;
   font-family: "Denk One";
   color: #623b0c;
 }
 
 li {
+  padding: 1rem;
+  flex-direction: column;
   list-style-type: none;
+  background-color: #ede3db;
+  border-radius: 8px;
+  justify-content: space-around;
+  display: flex;
+  border: 2px solid #623b0c;
 }
 
 a {
+  font-weight: lighter;
   text-decoration: none;
+  padding: .5em;
+  border-radius: 8px;
+  background-color: #623b0c;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 2.5rem;
+}
+
+ol li:last-child img {
+  margin-top: -.1rem;
+}
+
+ol li:last-child h2 {
+  margin-top: .2rem;
+}
+
+ol li:last-child a {
+  margin-top: -1rem;
+}
+
+ol li:nth-child(3) a {
+  margin-top: 1.2rem;
+}
+
+li img {
+  margin-top: .5rem;
 }
 
 ol {
